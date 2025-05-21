@@ -1,5 +1,5 @@
 # midi2floppy
-A command-line utility that **recursively discovers MIDI files, renames them to strict 8·3 filenames, buckets them into ≤ 60-file / ≤ 600 KB groups, assembles exact 720 KB FAT12 images, and converts those images to HFE**—ready for Greaseweazle-style floppy-drive emulators.
+A command-line utility that **recursively discovers MIDI files, renames them to strict 8·3 filenames, buckets them into ≤ 60-file / ≤ 600 KB groups, assembles those groups into exact 720 KB FAT12 images, and converts those images to HFE**—ready for Greaseweazle-style floppy-drive emulators.
 
 > **About the code**  
 > The initial scaffolding and refactor outline were produced with assistance from **OpenAI ChatGPT o3**. All logic, testing, and documentation were subsequently reviewed and refined by the maintainer.
